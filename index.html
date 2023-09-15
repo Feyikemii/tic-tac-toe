@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="game-container">
+      <h1>TIC TAC TOE</h1>
+      <div id="cell-container">
+        <div class="cells" dataCell="0"></div>
+        <div class="cells" dataCell="1"></div>
+        <div class="cells" dataCell="2"></div>
+        <div class="cells" dataCell="3"></div>
+        <div class="cells" dataCell="4"></div>
+        <div class="cells" dataCell="5"></div>
+        <div class="cells" dataCell="6"></div>
+        <div class="cells" dataCell="7"></div>
+        <div class="cells" dataCell="8"></div>
+      </div>
+      <div class="status-msg" id="statusMsg"></div>
+      <h2 id="statusText"></h2>
+      <div class="win-count">
+        <p>X Wins: <span id="xWins">0</span></p>
+        <p>Y Wins: <span id="yWins">0</span></p>
+      </div>
+      <button type="reset" id="restartBtn">Restart</button>
+    </div>
+
+    <script src="index.js" charset="UTF-8"></script>
+  </body>
+</html>
